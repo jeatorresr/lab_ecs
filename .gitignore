@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+
+# Logs
+logs/
+*.log
+
+# Docker
+*.tgz
+.dockerignore
+docker-compose.override.yml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sw?
+
+# GitHub Actions temporales
+.github/workflows/*.bak
