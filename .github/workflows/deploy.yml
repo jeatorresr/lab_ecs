@@ -51,7 +51,7 @@ jobs:
           docker build -t $IMAGE_URI .
           docker push $IMAGE_URI
 
-          echo "Image=$IMAGE_URI" >> $GITHUB_OUTPUT
+          echo "image=$IMAGE_URI" >> $GITHUB_OUTPUT
 
       - name: Fill in the new image ID in the Amazon ECS task definition
         id: task-definition
