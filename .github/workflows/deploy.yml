@@ -44,7 +44,6 @@ jobs:
 
       - name: Build, tag, and push image to Amazon ECR
         run: |
-          IMAGE_TAG=latest
           ECR_REGISTRY=$(aws sts get-caller-identity --query Account --output text).dkr.ecr.${AWS_REGION}.amazonaws.com
           IMAGE_URI=$ECR_REGISTRY/${ECR_REPOSITORY}:$IMAGE_TAG
 
