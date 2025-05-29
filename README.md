@@ -15,7 +15,7 @@ This repository contains a simple Node.js + Express application served over HTTP
 
 ## Project Structure
 
-<pre> ```text . ├── Dockerfile ├── app.js ├── package.json ├── public/ │ └── index.html └── .github/ └── workflows/ └── deploy.yml ``` </pre>
+```text . ├── Dockerfile ├── app.js ├── package.json ├── public/ │ └── index.html └── .github/ └── workflows/ └── deploy.yml ```
 
 - GitHub Workflow:
   - .github/workflows/deploy.yml: Automates the deployment process using AWS CLI and GitHub Actions.
